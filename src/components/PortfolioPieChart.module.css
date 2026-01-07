@@ -1,0 +1,129 @@
+.container {
+    padding: 24px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: var(--text-primary);
+}
+
+.chartWrapper {
+    flex: 1;
+    min-height: 250px;
+    position: relative;
+}
+
+.centerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none;
+}
+
+.centerLabel {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.centerValue {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.tooltip {
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    padding: 12px;
+    border-radius: var(--radius-sm);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.tooltipLabel {
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.tooltipValue {
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+.tooltipPercent {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.legendDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.legendSymbol {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.legendPercent {
+    color: var(--text-primary);
+    font-weight: 700;
+    margin-left: auto;
+}
+
+.legendMore {
+    color: var(--text-tertiary);
+    font-size: 12px;
+}
+
+.emptyContainer {
+    padding: 24px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 350px;
+    gap: 16px;
+}
+
+.emptyCircle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.05);
+}
+
+.emptyText {
+    color: var(--text-secondary);
+    font-size: 14px;
+}

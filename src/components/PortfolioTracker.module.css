@@ -1,0 +1,11 @@
+.splitGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+}
+
+@media (min-width: 1024px) {
+    .splitGrid {
+        grid-template-columns: 360px 1fr;
+    }
+}
