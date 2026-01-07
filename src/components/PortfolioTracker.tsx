@@ -13,7 +13,7 @@ import Tabs from "./Tabs";
 import Calculator from "./Calculator";
 import BasicCalculator from "./BasicCalculator";
 import { Calculator as CalcIcon } from "lucide-react";
-import styles from "./PortfolioTracker.module.css";
+import styles from "../styles/PortfolioTracker.module.css";
 
 export default function PortfolioTracker() {
     const [activeTab, setActiveTab] = useState("portfolio");

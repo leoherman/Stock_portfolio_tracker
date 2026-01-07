@@ -2,7 +2,7 @@
 
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 import { Stock } from "@/types/stock";
-import styles from "./PortfolioPieChart.module.css";
+import styles from "../styles/PortfolioPieChart.module.css";
 
 interface PortfolioPieChartProps {
     stocks: Stock[];

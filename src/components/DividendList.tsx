@@ -1,6 +1,6 @@
 import { Dividend } from "@/types/dividend";
 import { Trash2, Edit2 } from "lucide-react";
-import styles from "./StockList.module.css"; // Reuse existing list styles
+import styles from "../styles/StockList.module.css"; // Reuse existing list styles
 
 interface DividendListProps {
     dividends: Dividend[];

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { X, Delete } from "lucide-react";
-import styles from "./BasicCalculator.module.css";
+import styles from "../styles/BasicCalculator.module.css";
 
 interface BasicCalculatorProps {
     onClose: () => void;

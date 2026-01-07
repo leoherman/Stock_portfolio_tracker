@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Plus, Percent, DollarSign, Type, Save, X } from "lucide-react";
-import styles from "./AddStockForm.module.css";
+import styles from "../styles/AddStockForm.module.css";
 import { Stock } from "@/types/stock";
 
 // Generate ID helper

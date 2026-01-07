@@ -1,6 +1,6 @@
 import { Stock } from "@/types/stock";
 import { DollarSign, TrendingUp } from "lucide-react";
-import styles from "./SummaryCard.module.css";
+import styles from "../styles/SummaryCard.module.css";
 
 interface SummaryCardProps {
     stocks: Stock[];

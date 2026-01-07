@@ -4,7 +4,7 @@
 // I'll stick to CSS for simplicity unless I want to install another package. The user asked for "modern design", framer-motion is good for that.
 // Let's stick to CSS for now to avoid swelling dependencies too much, I can make it very smooth with CSS.
 
-import styles from "./Tabs.module.css";
+import styles from "../styles/Tabs.module.css";
 
 interface Tab {
     label: string;

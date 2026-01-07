@@ -1,6 +1,6 @@
 import { Stock } from "@/types/stock";
 import { Trash2, Edit2 } from "lucide-react";
-import styles from "./StockList.module.css";
+import styles from "../styles/StockList.module.css";
 
 interface StockListProps {
     stocks: Stock[];

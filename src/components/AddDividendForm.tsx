@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Plus, Calendar, DollarSign, Type, Save, X } from "lucide-react";
-import styles from "./AddStockForm.module.css"; // Reuse existing form styles for consistency
+import styles from "../styles/AddStockForm.module.css"; // Reuse existing form styles for consistency
 import { Dividend } from "@/types/dividend";
 import { Stock } from "@/types/stock";
 

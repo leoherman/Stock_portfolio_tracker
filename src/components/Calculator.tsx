@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { DollarSign, TrendingUp, Calendar, Calculator as CalcIcon } from "lucide-react";
-import styles from "./Calculator.module.css";
+import styles from "../styles/Calculator.module.css";
 
 export default function Calculator() {
     const [initial, setInitial] = useState(1000);
