@@ -3,12 +3,24 @@
 
 ## Technology utilized
 
-- Google AntiGravity IDE - utilized IDE and AI agent to help assist in coding progress
-- Next.js - Base framework
-- React - Base framework
-- Typescript - type validation
-- Recharts - Display pie graph for displaying stock portfolio distribution
-- 
+### Core Framework & Language
+
+-Next.js 15+ (App Router): The React framework used for structure, routing, and optimization.\
+-React 19: The latest version of the UI library for building component-based interfaces.\
+-TypeScript: Ensures type safety and cleaner code with interfaces for Stocks and Dividends.
+
+### Styling & Design
+-Vanilla CSS & CSS Modules: Custom-written CSS for granular control over the design without external utility libraries like Tailwind.\
+-Glassmorphism: A premium design aesthetic using backdrop-filter, semi-transparent backgrounds, and subtle borders.\
+-CSS Animations: Custom keyframe animations for the "Aurora" background (@keyframes aurora) and list entry effects (@keyframes enter).\
+-Google Fonts (Next/Font): Using "Outfit" for a modern, clean typography.
+
+### Features & Libraries
+-Recharts: A composable charting library used for the Portfolio Allocation Pie Chart.\
+-Lucide-React: A lightweight, consistent icon library used for UI elements (Trash, Edit, Plus, Calculator icons).\
+-Local Storage: Browser-based persistence to save your portfolio and dividend data between sessions without a backend database.\
+-Math: Custom logic for the Compound Interest Calculator and Basic Calculator widget.
+
 ## Getting Started
 
 First, run the development server:
